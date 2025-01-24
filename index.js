@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Node Server is running. hello motor Yay!! 🌟');
+    res.send('Node Server is running. This is going to be a good server Yay!! 🌟');
 });
 
 app.listen(3000, () => {
